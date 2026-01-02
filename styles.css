@@ -55,7 +55,6 @@ header {
 .signup {
     background: #3882f6;
     color: white;
-    max-width: fit-content;
     border: none;
     border-radius: 8px;
     margin-top: 6px; 
@@ -74,7 +73,7 @@ a {
     flex-direction: column;
     padding: 0 0 100px;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .random {
@@ -106,17 +105,62 @@ a {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 90px 200px;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container {
+    padding: 0 400px;
 }
 
 .quote-author {
-    text-align: end;
-    margin-top: 12px;
     font-weight: 900;
+    text-align: end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.cta-body {
+    background-color: #3882f6;
+    color: white;
+    gap: 60px;
+    padding: 40px 120px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.cta-body-head {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-signup {
+    background: #3882f6;
+    color: white;
+    border: solid 2px white;
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
